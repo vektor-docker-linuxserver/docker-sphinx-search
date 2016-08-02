@@ -1,0 +1,1 @@
+The Sphinx search image primarely writen for tt-rss container, but can be used for other purposes.

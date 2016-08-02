@@ -1,0 +1,8 @@
+#!/bin/sh
+
+while /sbin/setuser abc inotifywait --event modify /config/cron/cron-sphinx; do
+    cp -f /config/cron/cron-sphinx /etc/cron.d/cron-sphinx
+    chmod 600 /etc/cron.d/cron-sphinx
+    chown root:root
+    echo "Cron config changed, updating"
+done

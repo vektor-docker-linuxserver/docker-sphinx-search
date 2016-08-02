@@ -1,0 +1,2 @@
+0   0    *   *   *   /usr/bin/indexer --config /config/etc/sphinx.conf --rotate ttrss >/dev/null 2>&0
+0  */2   *   *   *   /usr/bin/indexer --config /config/etc/sphinx.conf --rotate delta >/dev/null 2>&0
